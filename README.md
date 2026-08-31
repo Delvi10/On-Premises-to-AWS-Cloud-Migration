@@ -92,8 +92,61 @@ The architecture diagram documents a path to high availability that this build d
 
 ## Tools & Technologies
 
-`AWS EC2` `AWS RDS` `AWS VPC` `AWS IAM` `AWS Security Groups` `Nginx` `Flask (Python)` `MySQL` `systemd` `Linux (Ubuntu, Lubuntu)` `VirtualBox`
-![aws](<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />)
+<p align="left">
+
+<a href="https://aws.amazon.com/ec2/">
+  <img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS EC2"/>
+</a>
+
+<a href="https://aws.amazon.com/rds/">
+  <img src="https://img.shields.io/badge/AWS%20RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white" alt="AWS RDS"/>
+</a>
+
+<a href="https://aws.amazon.com/vpc/">
+  <img src="https://img.shields.io/badge/AWS%20VPC-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS VPC"/>
+</a>
+
+<a href="https://aws.amazon.com/iam/">
+  <img src="https://img.shields.io/badge/AWS%20IAM-DD344C?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS IAM"/>
+</a>
+
+<a href="https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html">
+  <img src="https://img.shields.io/badge/AWS%20Security%20Groups-DD344C?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Security Groups"/>
+</a>
+
+<a href="https://nginx.org/">
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx"/>
+</a>
+
+<a href="https://flask.palletsprojects.com/">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
+</a>
+
+<a href="https://www.python.org/">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+</a>
+
+<a href="https://www.mysql.com/">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+</a>
+
+<a href="https://systemd.io/">
+  <img src="https://img.shields.io/badge/systemd-000000?style=for-the-badge&logo=linux&logoColor=white" alt="systemd"/>
+</a>
+
+<a href="https://ubuntu.com/">
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
+</a>
+
+<a href="https://lubuntu.me/">
+  <img src="https://img.shields.io/badge/Lubuntu-0068C8?style=for-the-badge&logo=linux&logoColor=white" alt="Lubuntu"/>
+</a>
+
+<a href="https://www.virtualbox.org/">
+  <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox"/>
+</a>
+
+</p>
 
 ## Repository Contents
 
