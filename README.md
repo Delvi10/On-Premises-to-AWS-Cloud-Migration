@@ -12,7 +12,7 @@ The [architecture diagram](images/AWS_Architecture.png) above shows the full tar
 
 ## Migration Planning
 
-Before touching AWS, the current environment and migration strategy were fully documented in the [Migration Planning Doc](Migration_Planning_Doc.md), covering:
+Before touching AWS, the current environment and migration strategy were fully documented in the [Migration Planning Doc](Migration Planning Doc.md), covering:
 
 - Current on-prem architecture and its limitations (single point of failure, manual patching, no backups, no monitoring)
 - Target AWS architecture and service mapping
@@ -96,5 +96,5 @@ The architecture diagram documents a path to high availability that this build d
 
 ## Repository Contents
 
-- [`Migration_Planning_Doc.md`](Migration_Planning_Doc.md) — full migration planning document
+- [`Migration Planning Doc.md`](Migration Planning Doc.md) — full migration planning document
 - [`images/AWS_Architecture.png`](images/AWS_Architecture.png) — target-state architecture diagram
