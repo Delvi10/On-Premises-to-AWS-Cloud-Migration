@@ -301,21 +301,7 @@ Potential monitoring areas include:
 
 ---
 
-## 11. Migration Risks and Mitigations
-
-| Risk | Potential Impact | Mitigation |
-|---|---|---|
-| Data loss during database migration | High | Create and verify database backups before migration |
-| Incorrect application configuration | Medium | Document configuration and test after migration |
-| Network configuration errors | Medium | Test connectivity incrementally |
-| Security misconfiguration | High | Use least-privilege IAM and restrictive Security Groups |
-| Application downtime | Medium | Perform migration in a controlled sequence |
-| Unexpected AWS costs | Medium | Monitor resource usage and shut down unnecessary resources |
-| Failed migration | High | Maintain the original environment until migration validation is complete |
-
----
-
-## 12. Migration Success Criteria
+## 11. Migration Success Criteria
 
 The migration will be considered successful when:
 
@@ -330,7 +316,7 @@ The migration will be considered successful when:
 
 ---
 
-## 13. Expected Outcome
+## 12. Expected Outcome
 
 The final environment will demonstrate how a traditional single-server application can be transitioned into a more structured AWS architecture.
 
