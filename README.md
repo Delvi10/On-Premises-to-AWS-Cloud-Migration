@@ -12,7 +12,7 @@ The [architecture diagram](images/AWS_Architecture.png) above shows the full tar
 
 ## Migration Planning
 
-Before touching AWS, the current environment and migration strategy were fully documented in the [Migration Planning Doc](Migration Planning Doc.md), covering:
+Before touching AWS, the current environment and migration strategy were fully documented in the [Migration Planning Doc](Migration_Planning_Doc.md), covering:
 
 - Current on-prem architecture and its limitations (single point of failure, manual patching, no backups, no monitoring)
 - Target AWS architecture and service mapping
@@ -31,7 +31,7 @@ Before touching AWS, the current environment and migration strategy were fully d
 
 **Limitations identified**: single point of failure, manual OS patching, no configured backups, app and DB coupled on one machine, no monitoring or alerting.
 
-images/Localhosting.png
+![Local host](images/Localhosting.png)
 
 ### AWS Environment ("After")
 
@@ -44,8 +44,8 @@ images/Localhosting.png
   - `db-sg` — MySQL (3306) access permitted **only** from `app-sg`, using a security-group-to-security-group reference rather than a CIDR block, so the database is unreachable from anywhere except the app server
 - **IAM Role** (`migration-ec2-role`) attached to the EC2 instance, so no AWS credentials are embedded in the application — CloudWatch permissions granted via the role, not access keys
 
-images/Screenshot_EC2.png
-images/Screenshot_RDS.png
+![EC2](images/Screenshot_EC2.png)
+![RDS](images/Screenshot_RDS.png)
 
 **Compute & Database:**
 - **EC2**: Ubuntu, `t3.micro` (AWS Free Tier eligible), in the public subnet, with Nginx reverse-proxying to a Flask app managed by a `systemd` service (auto-restarts on failure, starts on boot)
@@ -60,8 +60,8 @@ images/Screenshot_RDS.png
 - Imported directly into RDS via the MySQL client
 - Verified row-for-row after import to confirm data integrity
 
-images/Screenshot_Public_IP.png
-images/Screenshot_RDS_data.png
+![Public IP](images/Screenshot_Public_IP.png)
+![Data inside RDS](images/Screenshot_RDS_data.png)
 
 ## Service Mapping
 
@@ -96,5 +96,5 @@ The architecture diagram documents a path to high availability that this build d
 
 ## Repository Contents
 
-- [`Migration Planning Doc.md`](Migration Planning Doc.md) — full migration planning document
+- [`Migration Planning Doc.md`](Migration_Planning_Doc.md) — full migration planning document
 - [`images/AWS_Architecture.png`](images/AWS_Architecture.png) — target-state architecture diagram
