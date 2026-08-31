@@ -93,6 +93,7 @@ The architecture diagram documents a path to high availability that this build d
 ## Tools & Technologies
 
 `AWS EC2` `AWS RDS` `AWS VPC` `AWS IAM` `AWS Security Groups` `Nginx` `Flask (Python)` `MySQL` `systemd` `Linux (Ubuntu, Lubuntu)` `VirtualBox`
+![aws](<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />)
 
 ## Repository Contents
 
